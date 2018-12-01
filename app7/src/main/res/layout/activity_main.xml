@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <guopuran.bwie.com.app7.TitleBarView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </guopuran.bwie.com.app7.TitleBarView>
+    <guopuran.bwie.com.app7.WeekGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搜索历史"
+        app:textcolor="#ccc"
+        />
+    <guopuran.bwie.com.app7.CustomView
+        android:id="@+id/fl_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></guopuran.bwie.com.app7.CustomView>
+    <guopuran.bwie.com.app7.WeekGroupNameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="热门搜索"
+        />
+    <guopuran.bwie.com.app7.CustomView
+        android:id="@+id/fl_hot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        ></guopuran.bwie.com.app7.CustomView>
+</LinearLayout>
